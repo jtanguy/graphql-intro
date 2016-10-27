@@ -27,6 +27,9 @@ style: |
     #SeeMore h2 {
         font-size:100px
         }
+    #logo > img:before {
+        content: attr(title);
+    }
     #SeeMore img {
         width:0.72em;
         height:0.72em;
@@ -42,19 +45,10 @@ style: |
 <!-- photo by John Carey, fiftyfootshadows.net -->
 
 
-## Hello World
+## **Hello World**
 
-
-- [:briefcase:/Valwin](valwin.fr)
-
-<!-- -->
-
-- [:twitter:/jutanguy](twitter.com/jutanguy)
-- [:octocat:/jtanguy](https://github.com/jtanguy)
-
-
-## ![](pictures/graphqlLogo.png)
-{:.shout}
+## ![Graphql](pictures/graphqlLogo.png "Graphql")
+{:.shout #logo}
 
 ## **Graphql**
 
@@ -62,12 +56,16 @@ style: |
 
 ## **Typed Schema**
 
-## Declarative queries
+## **Declarative queries**
 
-- Ask only for what you need
-- Get what you want
+## **1. Ask only for what you need**
+
+## **2. Get what you want**
+
+## **3. ???**
+
+## **4. Profit**
 
 ## **[graphql.org](https://graphql.org)**
-
 
 ## **Demo**
