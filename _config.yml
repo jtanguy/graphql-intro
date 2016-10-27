@@ -1,6 +1,9 @@
 safe: true
 markdown: kramdown
-highlighter: pygments
+highlighter: none
+kramdown:
+    syntax_highlighter_opts:
+        disable : true
 permalink: /:title.html
 relative_permalinks: false
 
@@ -8,6 +11,9 @@ default_theme: ribbon
 default_width: 792
 default_lang: en
 default_body_class: list
+
+gems:
+    - jemoji
 
 author:
     name: Julien Tanguy
